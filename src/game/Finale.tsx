@@ -46,15 +46,61 @@ export function Finale({ onReset }: { onReset: () => void }) {
             style={{ animation: "pop-in 0.5s ease-out" }}
           >
             <h3 className="font-display text-2xl text-gold">Para ti</h3>
-            <p className="mt-3 text-night-foreground/90">
-              Gracias por existir. Gracias por tu risa, por tu paciencia y por las cosas pequeñas que
-              haces sin darte cuenta.
-            </p>
-            <p className="mt-3 text-night-foreground/90">
-              ¿Seguimos escribiendo esta historia, nivel por nivel?
-            </p>
-            <p className="mt-4 font-display text-xl">Sí ❤️ / Obvio que sí ❤️</p>
-          </div>
+    <p className="mt-4 text-night-foreground/90 leading-8">
+    Si llegaste hasta aquí es porque recorriste cada rincón de este pequeño
+    mundo que preparé para ti. Pero la verdad es que este juego nunca fue sobre
+    encontrar corazones, resolver acertijos o completar niveles. Siempre fue
+    sobre nosotros.
+  </p>
+
+  <p className="mt-4 text-night-foreground/90 leading-8">
+    Desde aquel <span className="text-gold font-semibold">12 de febrero de 2023</span>,
+    mi vida cambió de una manera que jamás imaginé. Sin darme cuenta te
+    convertiste en mi lugar seguro, en la persona con la que quiero compartir
+    mis alegrías, mis sueños, mis miedos y cada pequeño momento que la vida nos
+    regale.
+  </p>
+
+  <p className="mt-4 text-night-foreground/90 leading-8">
+    Gracias por abrazarme cuando más lo necesito, por hacerme reír incluso en
+    los días difíciles, por creer en mí cuando ni yo mismo lo hacía y por
+    demostrarme todos los días que el amor también vive en los detalles más
+    pequeños.
+  </p>
+
+  <p className="mt-4 text-night-foreground/90 leading-8">
+    Ojalá pudiera regalarte el universo entero, pero mientras tanto hice esto
+    con lo más valioso que tengo: mi tiempo, mis recuerdos y todo el amor que
+    siento por ti. Porque si existe alguien que merece algo especial, esa eres
+    tú.
+  </p>
+
+  <p className="mt-4 text-night-foreground/90 leading-8">
+    Prometo seguir creando recuerdos contigo, seguir haciéndote sonreír, seguir
+    apoyándote en cada paso y seguir eligiéndote una y otra vez, todos los días.
+  </p>
+
+  <p className="mt-6 text-center text-night-foreground/90 text-lg italic">
+    "Si pudiera volver a empezar mi vida, volvería a buscarte hasta encontrarte
+    de nuevo."
+  </p>
+
+  <div className="mt-8 border-t border-gold/30 pt-6 text-center">
+    <p className="font-display text-3xl text-gold">
+      Te amo infinitamente ❤️
+    </p>
+
+    <p className="mt-2 text-night-foreground/80">
+      Gracias por ser la mejor parte de mi historia.
+    </p>
+
+    <p className="mt-6 font-display text-2xl">
+      ¿Seguimos escribiendo esta aventura juntos?
+    </p>
+
+    <p className="mt-4 text-3xl">
+      💖 Sí, para toda la vida 💖
+    </p>
         )}
 
         <button
