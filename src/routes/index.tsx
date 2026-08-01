@@ -16,16 +16,16 @@ import { GameProvider, LEVELS, useGame, type LevelId } from "@/game/state";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nuestra Historia: Un Juego de Amor" },
+      { title: "Feliz Día de la Novia" },
       {
         name: "description",
         content:
-          "Una experiencia interactiva para Mariescler: minijuegos, recuerdos y un regalo final por descubrir.",
+          "Recuerda que eres una mujer increible y especial. Lo puedes todo amor.",
       },
-      { property: "og:title", content: "Nuestra Historia: Un Juego de Amor" },
+      { property: "og:title", content: "Feliz Día de la Novia" },
       {
         property: "og:description",
-        content: "Cuatro niveles, un medidor de amor y una carta final. Juega para desbloquearlo todo.",
+        content: "Recuerda que eres una mujer increible y especial. Lo puedes todo amor.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -152,7 +152,7 @@ function Game() {
         )}
 
         <footer className="mt-10 text-center text-xs text-muted-foreground">
-          Hecho con paciencia y muchos corazones ❤️
+          Te amo demasiado mi amor ❤️
         </footer>
       </div>
     </main>
