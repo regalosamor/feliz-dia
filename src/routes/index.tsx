@@ -79,7 +79,7 @@ function Game() {
 
         <section className="surface mt-8 flex flex-col gap-4 p-5 sm:flex-row sm:items-center">
           <img
-            src={fondo.url}
+            src={fondo}
             alt="Retrato de Mariescler"
             className="h-24 w-24 shrink-0 rounded-2xl object-cover"
             loading="lazy"
@@ -132,7 +132,7 @@ function Game() {
               </button>
             </div>
             {active === "maze" && <Maze onWin={() => finish("maze")} />}
-            {active === "puzzle" && <PhotoPuzzle image={foto1.url} onWin={() => finish("puzzle")} />}
+            {active === "puzzle" && <PhotoPuzzle image={foto1} onWin={() => finish("puzzle")} />}
             {active === "memory" && <MemoryGame onWin={() => finish("memory")} />}
             {active === "stars" && <Constellation name="MARIESCLER" onWin={() => finish("stars")} />}
           </div>
@@ -142,7 +142,7 @@ function Game() {
           <div className="mt-6">
             <Finale onReset={reset} />
             <img
-              src={foto2.url}
+              src={foto2}
               alt="Recuerdo desbloqueado"
               className="mt-6 w-full rounded-3xl object-cover"
               style={{ maxHeight: 420 }}
