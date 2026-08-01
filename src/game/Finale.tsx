@@ -85,15 +85,7 @@ export function Finale({ onReset }: { onReset: () => void }) {
             </p>
 
             <p className="mt-4 text-night-foreground/90 leading-8">
-              Quizá esta página no sea perfecta, pero cada segundo que pasé
-              haciéndola estuvo lleno de ilusión. Mi único objetivo era regalarte
-              una sonrisa y demostrarte que eres una de las personas más
-              importantes de mi vida.
-            </p>
-
-            <p className="mt-4 text-night-foreground/90 leading-8">
-              No importa cuántos niveles tenga la vida, cuántos desafíos
-              aparezcan o cuántos caminos tengamos que recorrer. Mientras pueda
+              No importa cuántos cuántos desafíos aparezcan o cuántos caminos tengamos que recorrer. Mientras pueda
               caminar a tu lado, cualquier lugar será mi hogar.
             </p>
 
