@@ -45,7 +45,13 @@ export function Finale({ onReset }: { onReset: () => void }) {
             className="mt-8 rounded-2xl border border-gold/40 bg-night-foreground/10 p-6 text-left"
             style={{ animation: "pop-in 0.5s ease-out" }}
           >
-            <h3 className="font-display text-2xl text-gold">Para ti</h3>
+<h3 className="text-center font-display text-3xl text-gold">
+  💌 Para el amor de mi vida
+</h3>
+
+<p className="mt-6 text-night-foreground/90 leading-8">
+  Mi hermosa <span className="text-gold font-semibold">Mariescler</span>,
+</p>
     <p className="mt-4 text-night-foreground/90 leading-8">
     Si llegaste hasta aquí es porque recorriste cada rincón de este pequeño
     mundo que preparé para ti. Pero la verdad es que este juego nunca fue sobre
@@ -102,7 +108,10 @@ export function Finale({ onReset }: { onReset: () => void }) {
       💖 Sí, para toda la vida 💖
     </p>
         )}
+  </div> {/* Cierra el div del borde */}
 
+</div> {/* Cierra el div principal de la carta */}
+)}
         <button
           onClick={onReset}
           className="mt-8 block w-full text-sm text-night-foreground/60 underline underline-offset-4"
