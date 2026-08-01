@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
-import foto1 from "@/assets/foto1.jpeg.asset.json";
-import foto2 from "@/assets/foto2.jpeg.asset.json";
-import fondo from "@/assets/fondo.png.asset.json";
+import foto1 from "@/assets/foto1.jpeg";
+import foto2 from "@/assets/foto2.jpeg";
+import fondo from "@/assets/fondo.png";
 import { Constellation } from "@/game/Constellation";
 import { Finale } from "@/game/Finale";
 import { Maze } from "@/game/Maze";
