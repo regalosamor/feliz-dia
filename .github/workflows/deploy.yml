@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
@@ -31,19 +31,18 @@ jobs:
         env:
           # Serves the site from https://<user>.github.io/<repo>/
           BASE_PATH: /${{ github.event.repository.name }}/
-          STATIC_EXPORT: "true"
-        run: npm run build
+        run: npm run build:pages
 
       - name: Add SPA fallback and disable Jekyll
         run: |
-          cp .output/public/index.html .output/public/404.html || true
-          touch .output/public/.nojekyll
+          cp dist-pages/index.html dist-pages/404.html
+          touch dist-pages/.nojekyll
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist-pages
 
   deploy:
     needs: build
